@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+:root{
+    /*Cores*/
+    --cor_black: #000000;
+    --cor_branca: #FFFFFF;
+
+    /*Fontes*/
+    --font-grande: "Passion One", sans-serif;
+    --font-media: "Sriracha", sans-serif;
+    --font-pequena: Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+header{
+    background-color: var(--cor_black);
+    color: var(--cor_branca);
+    text-align: center;
+}
+header h1{
+    font-family: var(--font-grande);
+    font-size: 10vw;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 50px;
+}
+section > p{
+    padding-bottom: 2em;
+}
+header p{
+    font-family: var(--font-pequena);
+    padding-bottom: 50px;
+}
+.m{
+    font-family: var(--font-pequena);
+    font-weight: bold;
+}
+.m:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.white{
+    background-color: var(--cor_branca);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+.white p{
+    font-family: var(--font-media);
+    font-weight: normal;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+.container-image{
+    background-color: rgb(51, 51, 51);
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
+}
+
+.container-image p{
+    font-family: var(--font-media);
+    color: var(--cor_branca);
+    font-weight: normal;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+}
+.container-image-02{
+    background-color: rgb(51, 51, 51);
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
+}
+
+.container-image-02 p{
+    font-family: var(--font-media);
+    color: var(--cor_branca);
+    font-weight: normal;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+}
+
+footer{
+    background-color: var(--cor_black);
+    color: var(--cor_branca);
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-pequena);
+}
+.of-fotter{
+    font-weight: bold;
+}
+.of-fotter:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
