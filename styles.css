@@ -34,6 +34,10 @@ header p{
     font-family: var(--font-pequena);
     padding-bottom: 50px;
 }
+header a{
+    text-decoration: none;
+    color: var(--cor_branca);
+}
 .m{
     font-family: var(--font-pequena);
     font-weight: bold;
