@@ -30,6 +30,7 @@ header h1{
 header h1:hover{
     cursor: pointer;
     text-decoration: underline;
+    transition: .5s;
 }
 section > p{
     padding-bottom: 2em;
